@@ -11,7 +11,6 @@
 .namelink {
     width:960px;
     margin:auto;
-    bottom: 0;
 }
 
 .name {
@@ -24,13 +23,15 @@
 }
 
 .links {
-    float:right
+    float:right;
+    font-size: 20px;
 }
 
 .container {
     width: 100%;
     background-color:grey;
     height:450px;
+    padding-top:30px;
 }
 
 .content{
@@ -51,10 +52,15 @@
     font-weight: bold;
 }
 
+hr {
+    margin: 15px;
+}
+
 #headshot {
-    float:left;
+    float: left;
     height: 190px;
     width: 130px;
+    margin: 10px;
 }
 
 #para {
