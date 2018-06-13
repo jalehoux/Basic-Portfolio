@@ -9,15 +9,17 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
         <div class="header">
-            <div class="name">Jacob Lehoux</div>
-                <div class="links">
-                    <a href='index.html'>About</a>
-                    <a href='portfolio.html'>Portfolio</a>
-                    <a href='contact.html'>Contact</a>
+            <div class="namelink">
+                <div class="name">Jacob Lehoux</div>
+                    <div class="links">
+                        <a href='index.html'>About</a>
+                        <a href='portfolio.html'>Portfolio</a>
+                        <a href='contact.html'>Contact</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -25,15 +27,39 @@
         <div class="container">
             <div class="content">
                 <div class="title">
-                    <header>Contact</header>
+                    <header class="headtitle">Contact</header>
                     <hr>
                 </div>
                 <div id="contactform">
                     <form>
-                        <div class="form-group">
-                            <label for="email">Your Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter email">
-                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" class="form-control" id="fname">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" class="form-control" id="lname">
+                                </div>
+                            </div>
+                        </div>     
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="company">Company</label>
+                                    <input type="text" class="form-control" id="company">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Your Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                </div>
+                            </div>
+                        </div> 
                     </form>
                 </div>
             </div>
