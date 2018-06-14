@@ -1,9 +1,12 @@
-* {
-    margin:0;
-}
-
 body {
     height: 100%;
+    margin:0;
+    padding:0;
+}
+
+.all {
+    min-height: 100%;
+    position: relative;
 }
 
 .header {
@@ -41,6 +44,7 @@ body {
     background-image: url('../../assets/images/qbkls.png');
     height:500px;
     padding-top:30px;
+    padding-bottom: 60px;
 }
 
 .content{
@@ -92,7 +96,7 @@ p {
     width: 150px;
     height: 150px;
     float: left;
-    background-image: url(../../assets/images/placeholder1.jpg);
+    background-image: url('../../assets/images/placeholder1.jpg');
     background-size: cover;
     position: relative;
 }
