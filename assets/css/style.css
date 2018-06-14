@@ -3,7 +3,6 @@
 }
 
 .header {
-    height: 60px;
     width:100%;
     display:inline-block;
 }
@@ -27,9 +26,15 @@
     font-size: 20px;
 }
 
+.links a:first-child {
+    border-right: 1px solid #000;
+    margin-right: 1px;
+}
+
+
 .container {
     width: 100%;
-    background-color:grey;
+    background-image: url('../../assets/images/qbkls.png');
     height:450px;
     padding-top:30px;
 }
