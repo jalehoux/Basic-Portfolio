@@ -127,9 +127,17 @@ p {
     position: relative;
 }
 
+.image:hover {
+    box-shadow:3px 4px 2px teal;
+    transition-duration: 0.4s;
+    opacity: .7;
+    cursor: pointer;
+}
+
 #hangman {
     background-image: url('../../assets/images/placeholder1.jpg');
 }
+
 
 #rpg {
     background-image: url('../../assets/images/placeholder2.jpg');
