@@ -2,17 +2,20 @@ html, body {
     height: 100%;
     margin:0;
     padding:0;
+    background-image: url('../../assets/images/qbkls.png');
 }
 
 .all {
     min-height: 100%;
     height: 100%;
     position: relative;
+    min-width: 100%;
 }
 
 .header {
     width:100%;
     display:inline-block;
+    background-color: white;
 }
 
 .namelink {
@@ -56,17 +59,17 @@ html, body {
 .container {
     width: 100%;
     background-image: url('../../assets/images/qbkls.png');
-    height:500px;
+    height:450px;
     padding-top:30px;
-    /* padding-bottom: 60px; */
+    padding-bottom: 80px;
 }
 
 .content{
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     width:960px;
     background-color:white;
     margin:auto;
-    height:400px;
+    height:410px;
 }
 
 .title {
@@ -195,12 +198,14 @@ label {
 }
 
 .footer {
-    position:absolute;
-    bottom: 0;
+    position: relative;
+    clear: both;
     width: 100%;
     background-color: #666666;
     border-top: 10px solid teal;
     height: 60px;
     color: white;
     text-align: center;
+    margin-top: -70px;
 }
+
